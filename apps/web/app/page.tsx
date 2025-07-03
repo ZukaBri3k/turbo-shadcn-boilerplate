@@ -1,9 +1,8 @@
-import { Button } from "@repo/ui/components/ui/button";
 
 export default function Home() {
   return (
     <div>
-      <Button>Test</Button>
+      <h1>Test</h1>
     </div>
   );
 }
