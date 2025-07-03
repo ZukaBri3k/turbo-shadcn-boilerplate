@@ -22,6 +22,17 @@ and add a postcss.config.mjs file in the root of the project:
 export { default } from "@repo/tailwindcss/postcss.config.mjs";
 ```
 
+Add the following line to the next.config.js file:
+
+```js
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  transpilePackages: ["@repo/ui"]
+};
+
+export default nextConfig;
+```
+
 ## Usage
 
 ```tsx
